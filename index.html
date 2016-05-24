@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Camagru</title>  
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  
+<body>
+	<div id="header">
+		<h1>Camagru</h1>
+		<ul id="header_ul">
+			<li><input type="button" class="li_header" value="Log In" onclick="login()" /></li>
+			<li><input type="button" class="li_header" value="Sign Up" onclick="signup()"/></li>
+		</ul>
+	</div>
+	<div id="main_content">
+		<div id="user_space">Test</div>
+		<img src="cat.jpeg" />
+		<img src="cat.jpeg" />
+		<img src="cat2.jpg" />
+		<img src="cat.jpeg" />
+		<img src="cat2.jpg" />
+		<img src="cat.jpeg" />
+		<img src="cat.jpeg" />
+		<img src="cat.jpeg" />
+	</div>
+	<div id="footer">
+		<h1>Footer</h1>
+	</div>
+	<script>
+		function login()
+		{
+			var div = document.getElementById('user_space');
+			if (div.style.display == "block")
+				div.style.display = "none";
+			else
+				div.style.display = "block";
+		}
+		function signup()
+		{
+			var div = document.getElementById('user_space');
+			if (div.style.display == "block")
+				div.style.display = "none";
+			else
+				div.style.display = "block";
+		}
+	</script>
+</body>
+</html>
