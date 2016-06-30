@@ -3,83 +3,121 @@
 	padding:0px;
 }
 
+body {
+	background-color:#1b252f;
+	font-family:arial;
+}
+
+#top_nav {
+	padding:10.5px;
+	padding-right:0px;
+	text-align:right;
+	color:#cecfd0;
+	font-size:14px;
+}
+
+#top_nav a {
+	color:#cecfd0;
+}
+
 #header {
-	background-color:#00aaff;
+	position:absolute;
+	background-color:#34495e;
 	width:100%;
-	height:140px;
+	height:200px;
 }
 
-#header li {
-	padding:5px;
-	display:inline;
-}
-
-#header_ul {
-	float:right;
-	margin-top:70px;
-	margin-right:10px;
-	text-decoration:none;
-}
-
-.li_header {
-	font-size:15px;
-	padding:3px;
-	background-color:#00aaff;
-	border:2px solid white;
-	border-radius:4px;
-}
-
-.li_header:hover {
-	background-color:#eeeeee;
-	box-shadow:2px 3px 5px grey;
-}
-
-#main {
-	width:60%;
-	float:left;
-	padding:1%;
-}
-
-#side {
-	padding:0.5%;
-	height:100%;
-}
-
-#footer {
-	clear:both;
-	background-color:#00aaff;
-	width:100%;
-	height:100px;
-}
-
-#user_space {
-	display:none;
+#header img {
+	display:block;
 	margin:auto;
-	padding:20px;
-	border-bottom:2px solid #00aaff;
+	padding:30px;
 }
 
-#container {
-    margin: auto;
+#nav {
+	padding:15px;
+	background-color:#e2793f;
+	color:#19232c;
+	font-size:22px;
+	font-weight:550;
 }
 
-#videoElement {
-    width:100%;
-    height:100%;
-    background-color:#666;
-}
-
-#header h1 {
-	text-shadow:3px 3px 7px black;
+#nav a {
+	color:#19232c;
 }
 
 #main_content {
+	padding:10px;
+	margin-top:200px;
 	text-align:center;
+	width:75%;
+	background-color:#df494a;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 #main_content img {
 	padding:10px;
 	display:block;
-	max-height:600px;
+}
+
+.container_top {
+	display:inline;
+	padding-left:30px;
+	padding-right:30px;
+}
+
+.container_nav {
+	display:inline;
+	padding-left:42px;
+	padding-right:42px;
+}
+
+.container_picture {
+	background-color:#34495e;
+	padding:15px;
+	width:75%;1
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+}
+
+.container_picture img {
 	margin:auto;
+	max-width:95%;
+}
+
+.container_mypicture img {
+	max-width:75%;
+}
+
+.my_button {
+	box-shadow:inset 0px 1px 0px 0px #cf866c;
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border-radius:3px;
+	border:1px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:13px;
+	padding:6px 24px;
+	text-shadow:0px 1px 0px #854629;
+}
+
+.my_button:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+
+#footer {
+	background-color:#34495e;
+	text-align:right;
+	color:#ffffff;
+	padding:20px;
+	font-size:20px;
+}
+
+a {
+	text-decoration:none;
 }
